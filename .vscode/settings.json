@@ -1,0 +1,19 @@
+// Workspace settings
+{
+    "files.exclude": {
+        "**/build*": true,
+        "**/compile_commands.json": true,
+        "**/ipch*": true,
+        "**/.git*": true,
+        "**/.clang*": true,
+        "**/.cortex*": true,
+        "**/.mxproject*": true,
+        "**/*ioc*": true,
+    },
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "editor.renderWhitespace": "all",
+    "C_Cpp.autoAddFileAssociations": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.detectSubmodules": false
+}
