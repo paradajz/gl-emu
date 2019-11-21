@@ -12,6 +12,27 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "[Test] Build",
+            "command": "cd tests/ && make pre-build && make",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "label": "[Test] Run",
+            "command": "cd tests/ && make exec",
+            "type": "shell",
+            "problemMatcher": [],
+            "dependsOn": [
+                "[Test] Build"
+            ]
+        },
+        {
+            "label": "[FW] Clean",
+            "command": "cd src/ && make clean",
+            "type": "shell",
+            "problemMatcher": []
         }
     ]
 }
